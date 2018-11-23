@@ -15,6 +15,6 @@ main:
   - title: "Signup"
     url: /signup
   - title: "Log a Fault"
-    url: /faults
+    url: /fault
   - title: "Backlog"
     url: https://trello.com/b/Hsf6KrnU
