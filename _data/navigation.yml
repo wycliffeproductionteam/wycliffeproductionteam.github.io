@@ -12,7 +12,7 @@ main:
   #   url: /sitemap/
   - title: "Introduction"
     url: http://bit.ly/wbc-prodteam  
-  - title: "Signup"
+  - title: "Sign Up"
     url: /signup
   - title: "Log a Fault"
     url: /fault

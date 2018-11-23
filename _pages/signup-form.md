@@ -1,6 +1,8 @@
 ---
 layout: form
-title: Sign up
+title: Sign Up
+permalink: /signup/
+author_profile: false
 form_id: DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__RaMkSVUQUU5VTVRTUpROFZBT1IzQlNRQU9FQlVaVS4u
 ---
 
