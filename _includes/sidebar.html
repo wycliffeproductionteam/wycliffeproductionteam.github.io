@@ -1,5 +1,23 @@
-<h2>Resources</h2>
-<p><a href="https://sway.office.com/GRQ390Fn7C6XNw2n?ref=Link">Team Overview (Sway)</a></p>
-<p><a href="/signup">Get Involved</a></p>
-<p><a href="/fault">Log a Fault</a></p>
-<p><a href="https://trello.com/b/Hsf6KrnU">Engineering Backlog (Trello)</a></p>
+{% if page.author_profile or layout.author_profile or page.sidebar %}
+  <div class="sidebar sticky">
+  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+  {% if page.sidebar %}
+    {% for s in page.sidebar %}
+      {% if s.image %}
+        <img src=
+        {% if s.image contains "://" %}
+          "{{ s.image }}"
+        {% else %}
+          "{{ s.image | relative_url }}"
+        {% endif %}
+        alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
+      {% endif %}
+      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
+      {% if s.text %}{{ s.text | markdownify }}{% endif %}
+    {% endfor %}
+    {% if page.sidebar.nav %}
+      {% include nav_list nav=page.sidebar.nav %}
+    {% endif %}
+  {% endif %}
+  </div>
+{% endif %}
