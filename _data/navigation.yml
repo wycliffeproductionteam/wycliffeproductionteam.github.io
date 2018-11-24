@@ -17,7 +17,7 @@ main:
   - title: "Log a Fault"
     url: /fault
   - title: "Resources"
-    url: /resources
+    url: /docs/overview
   - title: "Backlog"
     url: https://trello.com/b/Hsf6KrnU
 
