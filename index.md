@@ -12,7 +12,7 @@ header:
   caption: "Photo credit: **Wycliffe Production Team**"
 excerpt: "We use creative and technical arts to help the community at Wycliffe Baptist Church respond to God in worship."
 ---
-# Latest Posts
+# Latest Updates
 {% for post in site.posts limit:5 %}
   {% include archive-single.html %}
 {% endfor %}
