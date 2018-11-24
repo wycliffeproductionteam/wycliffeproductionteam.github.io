@@ -20,3 +20,12 @@ main:
     url: /resources
   - title: "Backlog"
     url: https://trello.com/b/Hsf6KrnU
+
+# documentation links
+docs:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide/
+      - title: "Structure"
+        url: /docs/structure/
